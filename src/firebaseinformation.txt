@@ -1,0 +1,56 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDBll7mcjJahCBn7ftyi--Ln-GeE-vfo1Q",
+  authDomain: "clone-8a050.firebaseapp.com",
+  projectId: "clone-8a050",
+  storageBucket: "clone-8a050.appspot.com",
+  messagingSenderId: "747236730556",
+  appId: "1:747236730556:web:5c2ca21dddcd2b0e8692b9",
+  measurementId: "G-9THL4B9JY9"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDBll7mcjJahCBn7ftyi--Ln-GeE-vfo1Q",
+    authDomain: "clone-8a050.firebaseapp.com",
+    projectId: "clone-8a050",
+    storageBucket: "clone-8a050.appspot.com",
+    messagingSenderId: "747236730556",
+    appId: "1:747236730556:web:5c2ca21dddcd2b0e8692b9",
+    measurementId: "G-9THL4B9JY9"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+
+
+npm install -g firebase-tools
+
+$ firebase login
+
+$ firebase init
+
+$ firebase deploy

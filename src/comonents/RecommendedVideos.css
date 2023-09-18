@@ -1,0 +1,15 @@
+.recommendedvideos{
+    flex:0.8;
+    /* background-color: red; */
+    padding: 40px 20px;
+    padding-bottom:0;
+    /* border:1px solid black; */
+}
+
+.recommendedVideos__videos{
+    /* border: 1px solid black; */
+    display:flex;
+    flex-wrap: wrap; 
+    
+}
+

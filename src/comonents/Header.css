@@ -1,0 +1,51 @@
+* {
+  margin:0;
+}
+.header {
+  /* border: 1px solid black; */
+  
+  display: flex;
+  align-items: center;
+  margin: 10px ;
+
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.header__logo {
+  /* border: 1px solid black; */
+  height: 25px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+.header__input {
+  
+  display: flex;
+  /* border-radius: 10px; */
+  align-items: center;
+  width: 40%;
+  border: 1px solid lightgrey;
+}
+
+.header__input > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+
+}
+.header__inuptButton {
+  border-radius: 10px;
+  width: 50px !important;
+  color: grey;
+  border: 1px solid lightgray;
+}
+
+.header__icons {
+  margin-right: 8px;
+  /* border: 1px solid black; */
+  
+}
